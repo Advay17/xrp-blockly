@@ -34,7 +34,7 @@ createWindow = () => {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('../../index.html')
   mainWindow.setMenu(null);
 
   // Open the DevTools.
@@ -48,6 +48,15 @@ var stoppingPorts = false;
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
+fs.access(path.join(__dirname, "../state.json"), err => {
+  if (err) {
+  console.log('The file does not exist.');
+  fs.writeFile(path.join(__dirname, "../state.json"), JSON.stringify({"fullPath":""}), test);
+  }
+});
+function test(){
+  console.log("File Created");
+}
 app.whenReady().then(() => {
   ipcMain.handle('load-appstate', () => {
     return {

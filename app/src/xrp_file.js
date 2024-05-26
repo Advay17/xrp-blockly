@@ -46,6 +46,7 @@ function makexrp_content(code, blks) {
     hash = hashCode(code);
     strblks = JSON.stringify(blks);
     xrpstring = code + '\n\n\n## ' + dtime + '\n## ' + hash + '\n## ' + strblks;
+    console.log(xrpstring)
     return xrpstring;
 }
 
