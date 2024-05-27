@@ -362,3 +362,135 @@ Blockly.Blocks['xrp_r_refl'] = {
     this.setHelpUrl("");
   }
 };
+
+Blockly.Blocks['pestolink_getcontrollerleftx']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("Get Horizontal Value of Left Joystick");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['pestolink_getcontrollerlefty']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("Get Vertical Value of Left Joystick");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['pestolink_getcontrollerrightx']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("Get Horizontal Value of Right Joystick");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['pestolink_getcontrollerrighty']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("Get Vertical Value of Right Joystick");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['isapressed']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("A Pressed");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['isbpressed']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("B Pressed");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['isxpressed']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("X Pressed");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['isypressed']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("Y Pressed");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['isrightbumperpressed']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("Y Pressed");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['isleftbumperpressed']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("Y Pressed");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['isrighttriggerpressed']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("Y Pressed");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['islefttriggerpressed']={
+  init: function () {
+    this.appendDummyInput()
+      .appendField("Y Pressed");
+    this.setOutput(true, null);
+    this.setColour(60);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};

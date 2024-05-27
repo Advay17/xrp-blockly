@@ -177,3 +177,87 @@ Blockly.Python['xrp_r_refl'] = function (block) {
   // TODO: Change ORDER_NONE to the correct strength.
   return [code, Blockly.Python.ORDER_NONE];
 };
+
+Blockly.Python['pestolink_getcontrollerleftx'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_axis(0)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['pestolink_getcontrollerlefty'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_axis(1)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['pestolink_getcontrollerrightx'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_axis(2)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['pestolink_getcontrollerrighty'] = function (block) {
+  // TODO: Assemble Python into code variablse.
+  var code = `pestolink.get_axis(3)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['isapressed'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_button(0)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['isbpressed'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_button(1)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['isypressed'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_button(3)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['isxpressed'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_button(2)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['isleftbumperpressed'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_button(4)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['isrightbumperpressed'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_button(5)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['islefttriggerpressed'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_button(6)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};
+
+Blockly.Python['isrighttriggerpressed'] = function (block) {
+  // TODO: Assemble Python into code variable.
+  var code = `pestolink.get_button(7)`;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.Python.ORDER_NONE];
+};

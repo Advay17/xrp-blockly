@@ -51,7 +51,7 @@ workspace.addChangeListener(myUpdateFunction);
 /* Code Cleaning and Formatting */
 function processCode(code) {
     // console.log("Processing Code");
-    code = "from WPILib.WPILib import *\n\n" + code
+    code = "from WPILib.WPILib import *\n\nfrom machine import Pin \nimport bluetooth\n\nfrom XRPLib.defaults import * \nfrom pestolink import PestoLinkAgent\n\nfrom XRPLib.defaults import *\nfrom pestolink import PestoLinkAgent\n\n" + code
     // if (code.includes('encoded_motor')) {
     //     // console.log("Found encoded_motor");
     // }
