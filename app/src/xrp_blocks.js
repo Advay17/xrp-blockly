@@ -454,7 +454,7 @@ Blockly.Blocks['isypressed']={
 Blockly.Blocks['isrightbumperpressed']={
   init: function () {
     this.appendDummyInput()
-      .appendField("Y Pressed");
+      .appendField("Right Bumper Pressed");
     this.setOutput(true, null);
     this.setColour(60);
     this.setTooltip("");
@@ -465,7 +465,7 @@ Blockly.Blocks['isrightbumperpressed']={
 Blockly.Blocks['isleftbumperpressed']={
   init: function () {
     this.appendDummyInput()
-      .appendField("Y Pressed");
+      .appendField("Left Bumper Pressed");
     this.setOutput(true, null);
     this.setColour(60);
     this.setTooltip("");
@@ -476,7 +476,7 @@ Blockly.Blocks['isleftbumperpressed']={
 Blockly.Blocks['isrighttriggerpressed']={
   init: function () {
     this.appendDummyInput()
-      .appendField("Y Pressed");
+      .appendField("Right Trigger Pressed");
     this.setOutput(true, null);
     this.setColour(60);
     this.setTooltip("");
@@ -487,7 +487,7 @@ Blockly.Blocks['isrighttriggerpressed']={
 Blockly.Blocks['islefttriggerpressed']={
   init: function () {
     this.appendDummyInput()
-      .appendField("Y Pressed");
+      .appendField("Left Trigger Pressed");
     this.setOutput(true, null);
     this.setColour(60);
     this.setTooltip("");

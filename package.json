@@ -17,13 +17,12 @@
   "author": "XRP <gr-XRP@wpi.edu>",
   "license": "ISC",
   "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.65",
+    "@electron-forge/cli": "^6.4.2",
     "@electron-forge/maker-deb": "^6.0.0-beta.65",
     "@electron-forge/maker-rpm": "^6.0.0-beta.65",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.65",
     "@electron-forge/maker-zip": "^6.0.0-beta.65",
-    "electron": "^30.0.8",
-    "electron-builder": "^24.13.3"
+    "electron": "^30.0.8"
   },
   "dependencies": {
     "async-polling": "^0.2.1",
