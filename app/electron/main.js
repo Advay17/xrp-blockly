@@ -34,7 +34,8 @@ createWindow = () => {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadFile('../../index.html')
+  // mainWindow.loadFile('../../index.html')
+  mainWindow.loadFile('../app/index.html')
   mainWindow.setMenu(null);
 
   // Open the DevTools.
