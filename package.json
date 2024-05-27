@@ -11,7 +11,8 @@
     "electron:package:mac": "electron-builder -m -c.extraMetadata.main=app/electron/main.js",
     "electron:package:win": "electron-builder -w -c.extraMetadata.main=app/electron/main.js",
     "electron:package:linux": "electron-builder -l -c.extraMetadata.main=app/electron/main.js",
-    "pack": "electron-builder --dir"
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --publish=never"
   },
   "author": "XRP <gr-XRP@wpi.edu>",
   "license": "ISC",
@@ -22,13 +23,13 @@
     "@electron-forge/maker-squirrel": "^6.4.2",
     "@electron-forge/maker-zip": "^6.4.2",
     "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "electron-builder": "^24.13.3",
     "electron": "^30.0.8"
   },
   "dependencies": {
     "async-polling": "^0.2.1",
     "bootstrap": "^5.2.0",
     "drivelist": "^11.0.0",
-    "electron-builder": "^24.13.3",
     "electron-reloader": "^1.2.3",
     "electron-squirrel-startup": "^1.0.1",
     "fs-extra": "^11.1.1",
