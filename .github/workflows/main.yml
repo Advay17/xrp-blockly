@@ -20,11 +20,11 @@ jobs:
     name: "Build - ${{ matrix.artifact-name }}"
     runs-on: ${{ matrix.os }}
     steps:
+      - uses: actions/checkout@v2
       - name: Setup Python
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.9.13' 
-      - uses: actions/checkout@v2
+          python-version: '3.9' 
       - name: Use Node.js 21
         uses: actions/setup-node@v3
         with:
